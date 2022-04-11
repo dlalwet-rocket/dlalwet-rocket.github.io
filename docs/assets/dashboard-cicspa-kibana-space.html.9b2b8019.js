@@ -1,0 +1,1 @@
+const a={key:"v-c9d2dd2e",path:"/cics-performance-analyzer-elastic/dashboard-cicspa-kibana-space.html",title:"Create a Kibana space for the bundle",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:null,contributors:[]},filePathRelative:"cics-performance-analyzer-elastic/dashboard-cicspa-kibana-space.md"};export{a as data};

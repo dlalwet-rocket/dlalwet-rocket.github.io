@@ -1,0 +1,1 @@
+const a={key:"v-67230d84",path:"/cics-performance-analyzer-elastic/dashboard-cicspa-kibana-import.html",title:"Import Kibana saved objects",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:null,contributors:[]},filePathRelative:"cics-performance-analyzer-elastic/dashboard-cicspa-kibana-import.md"};export{a as data};

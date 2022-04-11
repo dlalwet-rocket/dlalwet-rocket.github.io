@@ -1,0 +1,1 @@
+const e={key:"v-35259966",path:"/cics-performance-analyzer-elastic/",title:"Introduction",lang:"en-US",frontmatter:{title:"Introduction"},excerpt:"",headers:[],git:{updatedTime:1648701624e3,contributors:[{name:"Daniel Lalwet",email:"dlalwet@rocketsoftware.com",commits:1}]},filePathRelative:"cics-performance-analyzer-elastic/index.md"};export{e as data};
