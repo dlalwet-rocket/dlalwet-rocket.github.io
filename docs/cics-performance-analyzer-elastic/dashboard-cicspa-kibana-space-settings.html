@@ -23,7 +23,7 @@
 			}
     </script>
     <link rel="icon" href="/images/z-open-data.png"><title>Customize Kibana space settings | z Open Data</title><meta name="description" content="Making z/OS data available on other platforms">
-    <link rel="modulepreload" href="/assets/app.ab41b6a4.js"><link rel="modulepreload" href="/assets/dashboard-cicspa-kibana-space-settings.html.b30043ea.js"><link rel="modulepreload" href="/assets/dashboard-cicspa-kibana-space-settings.html.ba232b21.js">
+    <link rel="modulepreload" href="/assets/app.aa1f03fb.js"><link rel="modulepreload" href="/assets/dashboard-cicspa-kibana-space-settings.html.ed4cae72.js"><link rel="modulepreload" href="/assets/dashboard-cicspa-kibana-space-settings.html.ba232b21.js">
     <link rel="stylesheet" href="/assets/style.05b68df0.css">
   </head>
   <body>
@@ -32,6 +32,6 @@
   <span class="token property">&quot;to&quot;</span><span class="token operator">:</span> <span class="token string">&quot;now&quot;</span>
 <span class="token punctuation">}</span>
 </code></pre></div></li></ul></li></ul></li></ol><h2 id="about-the-ignore-filter-s-setting" tabindex="-1"><a class="header-anchor" href="#about-the-ignore-filter-s-setting" aria-hidden="true">#</a> About the Ignore filter(s) setting</h2><p>Pinned filters in Kibana are useful to maintain consistent filtering when switching between dashboards. For example, to limit results to a particular system. However, different dashboards use different index patterns. If a visualization uses an index pattern that does not contain the field whose value is restricted by a pinned filter, then, by default, the visualization shows no results.</p><p>For example, some dashboards can be usefully filtered by the <code>job_name</code> field, so it makes sense for users to pin a filter for <code>job_name</code>.</p><p>However, the data for other dashboards might not include a <code>job_name</code> field. For those dashboards, by default, a <code>job_name</code> filter causes the dashboard visualizations to display &quot;No results found&quot;.</p><p>To ignore a filter if the field is not in the index pattern, set the <strong>Ignore filter(s)</strong> (<code>courier:ignoreFilterIfFieldNotInIndex</code>) setting to <strong>On</strong>.</p><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: dlalwet@rocketsoftware.com">Daniel Lalwet</span><!----><!--]--><!--]--></span></div></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/cics-performance-analyzer-elastic/dashboard-cicspa-kibana-import.html" class="" aria-label="Import Kibana saved objects"><!--[--><!--]--> Import Kibana saved objects <!--[--><!--]--></a></span><span class="next"><a href="/cics-performance-analyzer-elastic/dashboard-cicspa-input-data.html" class="" aria-label="Provide data"><!--[--><!--]--> Provide data <!--[--><!--]--></a></span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.ab41b6a4.js" defer></script>
+    <script type="module" src="/assets/app.aa1f03fb.js" defer></script>
   </body>
 </html>
