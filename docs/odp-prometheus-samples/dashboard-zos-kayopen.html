@@ -23,7 +23,7 @@
 			}
     </script>
     <link rel="icon" href="/images/z-open-data.png"><title>Update the ODP collection configuration | z Open Data</title><meta name="description" content="Making z/OS data available on other platforms">
-    <link rel="modulepreload" href="/assets/app.aa1f03fb.js"><link rel="modulepreload" href="/assets/dashboard-zos-kayopen.html.216229fd.js"><link rel="modulepreload" href="/assets/dashboard-zos-kayopen.html.db7510a5.js">
+    <link rel="modulepreload" href="/assets/app.e2ee3b15.js"><link rel="modulepreload" href="/assets/dashboard-zos-kayopen.html.182c5935.js"><link rel="modulepreload" href="/assets/dashboard-zos-kayopen.html.db7510a5.js">
     <link rel="stylesheet" href="/assets/style.05b68df0.css">
   </head>
   <body>
@@ -48,6 +48,6 @@
       <span class="token punctuation">-</span> open
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><ol start="2"><li><p>Reload the configuration of collection tasks to reflect the updated <code>KAYOPEN</code> member.</p><p>For the job that runs the OMEGAMON z/OS monitoring agent, enter the following MVS <code>MODIFY</code> system command:</p><div class="language-plain ext-plain"><pre class="language-plain"><code>F &lt;job_name&gt;,KPQ,RELOAD_CONFIG,KAY
 </code></pre></div><p>Replace <code>&lt;job_name&gt;</code> with the corresponding job name: for example, <code>OMEGDS</code>.</p></li></ol><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: xdai@rocketsoftware.com">David Dai</span><!----><!--]--><!--]--></span></div></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/odp-prometheus-samples/dashboard-zos-connect.html" class="" aria-label="Configure OMEGAMON Data Connect"><!--[--><!--]--> Configure OMEGAMON Data Connect <!--[--><!--]--></a></span><span class="next"><a href="/odp-prometheus-samples/dashboard-zos-collection.html" class="" aria-label="Create historical data collections"><!--[--><!--]--> Create historical data collections <!--[--><!--]--></a></span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.aa1f03fb.js" defer></script>
+    <script type="module" src="/assets/app.e2ee3b15.js" defer></script>
   </body>
 </html>
